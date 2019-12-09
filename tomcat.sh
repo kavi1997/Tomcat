@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #installjava
-yum install java-11-openjdk-devel	
+yum install java-1.8.0-openjdk-devel
 java -version
 
 #download the latest version of Apache Tomcat 9
