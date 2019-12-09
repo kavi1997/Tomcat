@@ -1,9 +1,3 @@
-#!/bin/sh
-
-#installjava
-yum install java-1.8.0-openjdk-devel
-java -version
-
 wget http://apachemirror.wuchna.com/tomcat/tomcat-8/v8.5.49/bin/apache-tomcat-8.5.49.tar.gz
 
 tar -xvzf apache-tomcat-8.5.49.tar.gz
@@ -28,3 +22,4 @@ sed -i 's\:1" />\:1" /> -->\g' apache-tomcat-8.5.49/webapps/manager/META-INF/con
 
 
 apache-tomcat-8.5.49/bin/./startup.sh
+
